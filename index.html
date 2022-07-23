@@ -12,7 +12,7 @@
       Thank you for taking the time to help us improve the platform
     </p>
     <form action="https://register-demo.freecodecamp.org" id="survey-form">
-      <fieldset>
+      <fieldset class="info">
         <label id="name-label"
           >Name<input
             type="text"
@@ -49,11 +49,10 @@
             <option value="2">Unemployed</option>
           </select></label
         >
-        <label for="recommendation"
-          >Would you recommend freeCodeCamp to a friend</label
-        ><input type="radio" name="recommend" />Definitely
-        <input type="radio" name="recommend" />Maybe
-        <input type="radio" name="recommend" /> Not sure
+        <label>Would you recommend freeCodeCamp to a friend</label>
+        <label><input type="radio" name="recommend" />Definitely</label
+        ><label><input type="radio" name="recommend" />Maybe</label
+        ><label><input type="radio" name="recommend" />Not sure</label>
       </fieldset>
       <fieldset>
         <label>What is your favourite feature of freeCodeCamp</label
@@ -65,32 +64,39 @@
         <label>
           What would you like to see improved? (check all that apply)
         </label>
-        <input type="checkbox" name="front-end" />Front-end Projects<input
-          type="checkbox"
-          name="back-end"
-        />Back-end Projects<input type="checkbox" name="data-visuals" />Data
-        Visualization<input type="checkbox" name="challenges" />Challenges<input
-          type="checkbox"
-          name="open-source"
-        />Open Source Community<input type="checkbox" name="gitter" />Gitter
-        help rooms<input type="checkbox" name="videos" />Videos
-        <input type="checkbox" name="" />City Meetups<input
-          type="checkbox"
-          name="meetups"
-        />Wiki<input type="checkbox" name="forum" />Forum<input
-          type="checkbox"
-          name="courses"
-        />Additional Courses
+        <label>
+          <input type="checkbox" name="front-end" />Front-end Projects</label
+        >
+        <label
+          ><input type="checkbox" name="back-end" />Back-end Projects</label
+        >
+        <label
+          ><input type="checkbox" name="data-visuals" />Data
+          Visualization</label
+        >
+        <label><input type="checkbox" name="challenges" />Challenges</label>
+        <label
+          ><input type="checkbox" name="open-source" />Open Source
+          Community</label
+        >
+        <label><input type="checkbox" name="gitter" />Gitter help rooms</label>
+        <label><input type="checkbox" name="videos" />Videos </label>
+        <label><input type="checkbox" name="" />City Meetups</label>
+        <label><input type="checkbox" name="meetups" />Wiki</label>
+        <label><input type="checkbox" name="forum" />Forum</label>
+        <label
+          ><input type="checkbox" name="courses" />Additional Courses</label
+        >
       </fieldset>
       <fieldset>
-        <label for="suggestions">Any comments or suggestions?</label
-        ><textarea
+        <label>Any comments or suggestions?<textarea
           name="suggestions"
           id="suggestions"
           cols="30"
           rows="3"
           placeholder="Enter your comment here."
-        ></textarea>
+        ></textarea></label
+        >
       </fieldset>
       <input type="submit" value="Submit" id="submit" />
     </form>
