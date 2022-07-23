@@ -36,7 +36,6 @@ label {
   margin: 2px 0;
 }
 
-
 input,
 textarea,
 select {
@@ -49,7 +48,7 @@ select {
 }
 
 select {
-	margin: 3px 0 10px;
+  margin: 3px 0 10px;
 }
 
 ::placeholder {
@@ -60,12 +59,12 @@ select {
 
 :focus {
   outline: none;
-	background-color: #935031;
+  background-color: #935031;
 }
 
 fieldset {
   margin: 0;
-	padding-bottom: 0px;
+  padding-bottom: 0px;
   border: none;
 }
 
@@ -83,12 +82,12 @@ textarea {
 input[type="submit"] {
   display: block;
   width: 100%;
-	cursor: pointer;
+  cursor: pointer;
   margin: 1em auto;
   height: 2em;
   font-size: 1.1rem;
   background-color: #180e0c;
   border-color: #180e0c;
-	border-radius: 5px;
+  border-radius: 5px;
   min-width: 300px;
 }
